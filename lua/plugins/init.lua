@@ -13,6 +13,16 @@ return {
     end,
   },
 
+  {
+    "github/copilot.vim",
+    -- lazy = false;
+  },
+
+  {
+    "sindrets/diffview.nvim",
+    -- lazy = false;
+  }
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
