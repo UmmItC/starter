@@ -1,9 +1,18 @@
-**This repo is supposed to used as config by NvChad users!**
+## starter
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+This is forked from Nvchad starter, and modify to my own preference.
 
-# Credits
+### Pre-requisites
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+- Neovim 0.10 or greater
+- Supported fonts for terminal icons
+
+### Installation
+
+neovim version >= 0.10 is required. and then run the following command:
+
+```sh
+git clone https://github.com/UmmItC/starter.git ~/.config/nvim && nvim
+```
+
+then run neovim by `nvim`. It will automatically install plugins. after that, run `:MasonInstallAll` to install all the plugins.
